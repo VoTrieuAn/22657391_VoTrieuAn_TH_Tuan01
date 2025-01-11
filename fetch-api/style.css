@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+th {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+th, td {
+  border: 1px solid #000000;
+  padding: 16px 16px;
+}
+
+
+#table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#table tr {
+  text-align: center;
+}
+
+#todo-list tr td:nth-child(2) {
+  text-align: left;
+}
+
+.button {
+  padding: 10px 20px;
+  width: 120px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  border-radius: 8px;
+}
+
+.button--edit {
+  background-color: rgb(163, 163, 75);
+}
+
+.button--delete {
+  background-color: rgb(186, 72, 72);
+}
